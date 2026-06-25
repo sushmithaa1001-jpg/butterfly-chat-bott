@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background:#050616;
+}
+
+.blob{
+    position:absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+}
+
+.blob1{
+    width:400px;
+    height:450px;
+    background: #ff4fd8;
+    top:-150px;
+    left:150px;
+
+}
+
+.blob2{
+    width:400px;
+    height:450px;
+    background: #aa4fff;
+    top:100px;
+    right:-150px;
+    
+}
+
+.blob3{
+    width: 350px;
+    height:350px;
+    background: #ff4ff0;
+    buttom:-100px;
+    left:30%;
+    
+}
+
+.blob4{
+    width: 350px;
+    height:300px;
+    background: #ff4f92;
+    buttom:-50px;
+    right:15%;
+    
+}
+
+.blob5{
+    width: 200px;
+    height:400px;
+    background: #ff4f4f;
+    top:-100px;
+    left:60%;
+    
+}
+/* Chatbot container */
+.chat-container{
+    position: absolute;
+    top:50%;
+    left:50%
+    transform: translate(-50%, -50%);
+    width:900px;
+    height: 750px;
+
+}
